@@ -1,0 +1,751 @@
+/*
+Jack Francis
+0853582
+FINAL PROJECT
+
+********************
+Table of Contents
+********************
+
+1. Fonts
+2. Header Styles
+3. Main Styles
+4. Portfolio Styles
+*/
+
+
+/*
+1. Fonts
+*/
+
+
+@font-face {
+    font-family: 'LEMONMILK';
+    src: url(LEMONMILK.otf) format('opentype');
+}
+
+
+/*
+2. Header Styles
+*/
+* {
+    box-sizing: border-box;
+}
+
+div.mainheader {
+    overflow: hidden;
+    background-color: #B3C8CF;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+div.mainheader a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 24px; 
+    line-height: 50px;
+    border-radius: 5px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+}
+
+div.mainheader a:hover {
+    background-color: #BED7DC;
+    color: #ffffff;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+}
+
+div.mainheader a.name {
+    font-size: 97px;
+    font-weight: bold;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+}
+
+div.mainheader a.active {
+    background-color: #BED7DC;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+}
+
+div.mainheaderright {
+    float: right;
+}
+
+
+/*
+3. Main Styles
+*/
+body {
+    background-color: #F1EEDC;
+}
+
+div.leftmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 40%;
+    height: 789px;
+    background-color: #E5DDC5;
+    text-align: center;
+}
+
+div.leftmain img {
+    width: 85%;
+    border-radius: 45%;
+    box-shadow: 0 0 4px 5px rgba(0,0,0,0.3);
+}
+
+div.rightmain {
+    text-align: center;
+    width: 60%;
+    height: 789px;
+    background-color: #F1EEDC;
+    display: table;
+    float: right;
+    vertical-align:top;
+}
+
+div.rightmain h1 {
+    padding: 20px;
+    padding-top: 50px;
+    font-size: 65px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    text-transform: bold;
+}
+
+div.rightmain p {
+    padding: 20px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    font-size: 35px;
+    line-height: 75px;
+}
+
+hr.introline {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 80%;
+}
+
+/*
+3. About Me Styles
+*/
+
+div.schooltext {
+    display: block;
+    float: left;
+    width: 60%;
+    background-color: #F1EEDC;
+    height: 600px;
+}
+
+div.schooltext h1 {
+    padding: 20px;
+    font-size: 65px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    text-transform: bold;
+    text-align: center;
+    background-color: #E5DDC5;
+    letter-spacing: 15px;
+}
+
+div.schooltext p {
+    padding: 20px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+div.schoolimg {
+    float: right;
+    width: 40%;
+    height: 600px;
+    background-color: #E5DDC5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.schoolimg img {
+    width: 95%;
+    height: 95%;
+    border-radius: 1%;
+    box-shadow: 0 0 4px 5px rgba(0,0,0,0.3);
+}
+
+
+
+
+div.hobbiesimg {
+    float: left;
+    width: 40%;
+    height: 600px;
+    background-color: #E5DDC5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.hobbiesimg img {
+    width: 95%;
+    height: 95%;
+    border-radius: 1%;
+    box-shadow: 0 0 4px 5px rgba(0,0,0,0.3);
+}
+
+div.hobbiestext {
+    display: block;
+    float: right;
+    width: 60%;
+    background-color: #F1EEDC;
+    height: 600px;
+}
+
+div.hobbiestext h1 { 
+    padding: 20px;
+    font-size: 60px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    text-transform: bold;
+    text-align: center;
+    background-color: #E5DDC5;
+    letter-spacing: 15px;
+}
+
+div.hobbiestext p {
+    padding: 20px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+
+
+
+div.employment {
+    display: block;
+    float: right;
+    width: 100%;
+    background-color: #F1EEDC;
+    height: 600px;
+}
+
+div.employment h1 {
+    padding: 20px;
+    font-size: 65px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    text-transform: bold;
+    text-align: center;
+    background-color: #E5DDC5;
+    letter-spacing: 15px;
+}
+
+div.employment p {
+    padding: 20px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+
+
+
+div.skillsimg {
+    float: right;
+    width: 40%;
+    height: 600px;
+    background-color: #E5DDC5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.skillstext {
+    display: block;
+    float: left;
+    width: 60%;
+    background-color: #F1EEDC;
+    height: 600px;
+    text-align: center;
+}
+
+div.skillstext h1 {
+    padding: 20px;
+    font-size: 60px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    text-transform: bold;
+    text-align: center;
+    background-color: #E5DDC5;
+    letter-spacing: 15px;
+}
+
+div.skillstext p {
+    display: inline-block;
+    padding: 20px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+}
+
+div.skillstext li {
+    display: inline-block;
+    padding: 20px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    font-size: 25px;
+    line-height: 75px;
+    text-align: center;
+}
+
+div.skillsimg img {
+    width: 95%;
+    height: 95%;
+    border-radius: 1%;
+    box-shadow: 0 0 4px 5px rgba(0,0,0,0.3);
+}
+
+hr.abtline {
+    border: 2px solid #E5DDC5;
+    border-radius: 5px;
+}
+
+/*
+4. Portfolio Styles
+*/
+
+div.portfolio1 {
+    width: 50%;
+    height: fit-content;
+    background-color: #F1EEDC;
+    float: left;
+    text-align: center;
+}
+
+div.portfolio2 {
+    width: 50%;
+    height: fit-content;
+    background-color: #F1EEDC;
+    overflow: hidden;
+    text-align: center;
+}
+
+div.portfolio3 {
+    width: 50%;
+    height: fit-content;
+    background-color: #F1EEDC;
+    float: left;
+    text-align: center;
+}
+
+div.portfolio4 {
+    width: 50%;
+    height: fit-content;
+    background-color: #F1EEDC;
+    overflow: hidden;
+    text-align: center;
+}
+
+div.portfolio1 img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    border-radius: 1%;
+    box-shadow: 0 0 4px 5px rgba(0,0,0,0.3);
+}
+
+div.portfolio2 img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    border-radius: 1%;
+    box-shadow: 0 0 4px 5px rgba(0,0,0,0.3);
+}
+
+div.portfolio3 img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    border-radius: 1%;
+    box-shadow: 0 0 4px 5px rgba(0,0,0,0.3);
+}
+
+div.portfolio4 img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    border-radius: 1%;
+    box-shadow: 0 0 4px 5px rgba(0,0,0,0.3);
+}
+
+div.portfolio1 h1 {
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    text-transform: bold;
+    text-align: center;
+    background-color: #E5DDC5;
+    letter-spacing: 15px;
+}
+
+div.portfolio2 h1 {
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    text-transform: bold;
+    text-align: center;
+    background-color: #E5DDC5;
+    letter-spacing: 15px;
+}
+
+div.portfolio3 h1 {
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    text-transform: bold;
+    text-align: center;
+    background-color: #E5DDC5;
+    letter-spacing: 15px;
+}
+
+div.portfolio4 h1 {
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    text-transform: bold;
+    text-align: center;
+    background-color: #E5DDC5;
+    letter-spacing: 15px;
+}
+
+div.portfolio1 p {
+    padding: 20px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    font-size: 15px;
+    opacity: 0;
+}
+
+div.portfolio1:hover p {
+    opacity: 1;
+}
+
+div.portfolio2 p {
+    padding: 20px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    opacity: 0;
+}
+
+div.portfolio2:hover p {
+    opacity: 1;
+}
+
+div.portfolio3 p {
+    padding: 20px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    opacity: 0;
+}
+
+div.portfolio3:hover p {
+    opacity: 1;
+}
+
+div.portfolio4 p {
+    padding: 20px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    opacity: 0;
+}
+
+div.portfolio4:hover p {
+    opacity: 1;
+}
+
+/*
+4. Contact Me Styles
+*/
+
+div.contactform {
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    background-color: #F1EEDC;
+}
+
+label {
+    display: block;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+}
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+input[type=submit] {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #B3C8CF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=submit]:hover {
+    background-color: #BED7DC;
+}
+
+div.contactform {
+    border-radius: 5px;
+    background-color: #E5DDC5;
+    padding: 30px;
+}
+
+div.email {
+    width: 50%;
+    height: fit-content;
+    background-color: #F1EEDC;
+    float: left;
+}
+
+div.email h1 {
+    padding: 20px;
+    font-size: 60px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    text-transform: bold;
+    text-align: center;
+    background-color: #E5DDC5;
+    letter-spacing: 15px;
+}
+
+div.email h2 {
+    padding: 20px;
+    font-size: 35px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    text-transform: bold;
+    text-align: center;
+    letter-spacing: 15px;
+}
+
+div.phone {
+    width: 50%;
+    height: fit-content;
+    background-color: #F1EEDC;
+    overflow: hidden;
+}
+
+div.phone h1 {
+    padding: 20px;
+    font-size: 60px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    text-transform: bold;
+    text-align: center;
+    background-color: #E5DDC5;
+    letter-spacing: 15px;
+}
+
+div.phone h2 {
+    padding: 20px;
+    font-size: 45px;
+    font-family: 'LEMONMILK', Fallback, sans-serif;
+    text-transform: bold;
+    text-align: center;
+    letter-spacing: 15px;
+}
+
+
+@media screen and (max-width: 950px) {
+     
+    div.mainheader a.name {
+        font-size: 45px;
+     }
+
+    div.mainheader a {
+        font-size: 10px;
+    }
+    
+    div.maincontents {
+        position: relative;
+    }
+
+    div.rightmain {
+        width: 100%;
+        height: 100%;
+    }
+
+    div.leftmain {
+        width: 100%;
+        height: 100%;
+    }
+
+    div.rightmain h1 {
+        font-size: 20px;
+        padding: 10px;
+        padding-top: 40px;
+    }
+
+    div.rightmain p {
+        font-size: 10px;
+        line-height: 25px;
+    }
+
+    div.mainheaderright {
+        float: none;
+        padding-left: 6px;
+    }
+
+
+    div.schooltext {
+        width: 100%;
+        height: 100%;
+    }
+    div.schoolimg {
+        width: 100%;
+        height: 100%;
+    }
+
+    div.schooltext h1 {
+        font-size: 23px;
+    }
+
+    div.schooltext p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    div.hobbiestext {
+        width: 100%;
+        height: 100%;
+    }
+
+    div.hobbiestext h1 {
+        font-size: 23px;
+    }
+
+    div.hobbiestext p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    div.hobbiesimg {
+        width: 100%;
+        height: 100%;
+    }
+
+    div.employment {
+        width: 100%;
+        height: 100%;
+    }
+
+    div.employment h1 {
+        font-size: 23px;
+    }
+
+    div.employment p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+
+    div.skillstext {
+        width: 100%;
+        height: 100%;
+    }
+
+    div.skillstext h1 {
+        font-size: 23px;
+    }
+
+    div.skillstext p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    div.skillstext li {
+        font-size: 10px;
+        line-height: 25px;
+    }
+
+    div.skillsimg {
+        width: 100%;
+        height: 100%;
+    }
+
+    div.email {
+        width: 100%;
+    }
+
+    div.email h1 {
+        font-size: 20px;
+    }
+
+    div.email h2 {
+        font-size: 10px;
+        letter-spacing: 5px;
+    }
+
+    div.phone {
+        width: 100%;
+    }
+
+    div.phone h1 {
+        font-size: 20px;
+    }
+
+    div.phone h2 {
+        font-size: 10px;
+        letter-spacing: 5px;
+    }
+}
+
+@media screen and (max-width: 1604px) {
+    div.email {
+        width: 100%;
+    }
+    
+    div.phone {
+        width: 100%;
+    }
+
+    div.portfolio1 {
+        width: 100%;
+    }
+
+    div.portfolio2 {
+        width: 100%;
+    }
+
+    div.portfolio3 {
+        width: 100%;
+    }
+
+    div.portfolio4 {
+        width: 100%;
+    }
+}
